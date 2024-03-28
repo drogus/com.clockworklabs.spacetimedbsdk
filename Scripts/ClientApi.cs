@@ -35,45 +35,49 @@ namespace ClientApi {
             "eRgHIAEoCzIXLmNsaWVudF9hcGkuT25lT2ZmUXVlcnlIABI+ChNvbmVPZmZR",
             "dWVyeVJlc3BvbnNlGAggASgLMh8uY2xpZW50X2FwaS5PbmVPZmZRdWVyeVJl",
             "c3BvbnNlSABCBgoEdHlwZSJBCg1JZGVudGl0eVRva2VuEhAKCGlkZW50aXR5",
-            "GAEgASgMEg0KBXRva2VuGAIgASgJEg8KB2FkZHJlc3MYAyABKAwiMQoMRnVu",
-            "Y3Rpb25DYWxsEg8KB3JlZHVjZXIYASABKAkSEAoIYXJnQnl0ZXMYAiABKAwi",
-            "IgoJU3Vic2NyaWJlEhUKDXF1ZXJ5X3N0cmluZ3MYASADKAkisAIKBUV2ZW50",
-            "EhEKCXRpbWVzdGFtcBgBIAEoBBIWCg5jYWxsZXJJZGVudGl0eRgCIAEoDBIu",
-            "CgxmdW5jdGlvbkNhbGwYAyABKAsyGC5jbGllbnRfYXBpLkZ1bmN0aW9uQ2Fs",
-            "bBIoCgZzdGF0dXMYBCABKA4yGC5jbGllbnRfYXBpLkV2ZW50LlN0YXR1cxIP",
-            "CgdtZXNzYWdlGAUgASgJEhoKEmVuZXJneV9xdWFudGFfdXNlZBgGIAEoAxIm",
-            "Ch5ob3N0X2V4ZWN1dGlvbl9kdXJhdGlvbl9taWNyb3MYByABKAQSFQoNY2Fs",
-            "bGVyQWRkcmVzcxgIIAEoDCI2CgZTdGF0dXMSDQoJY29tbWl0dGVkEAASCgoG",
-            "ZmFpbGVkEAESEQoNb3V0X29mX2VuZXJneRACIkMKElN1YnNjcmlwdGlvblVw",
-            "ZGF0ZRItCgx0YWJsZVVwZGF0ZXMYASADKAsyFy5jbGllbnRfYXBpLlRhYmxl",
-            "VXBkYXRlImwKC1RhYmxlVXBkYXRlEg8KB3RhYmxlSWQYASABKA0SEQoJdGFi",
-            "bGVOYW1lGAIgASgJEjkKEnRhYmxlUm93T3BlcmF0aW9ucxgDIAMoCzIdLmNs",
-            "aWVudF9hcGkuVGFibGVSb3dPcGVyYXRpb24ikgEKEVRhYmxlUm93T3BlcmF0",
-            "aW9uEjcKAm9wGAEgASgOMisuY2xpZW50X2FwaS5UYWJsZVJvd09wZXJhdGlv",
-            "bi5PcGVyYXRpb25UeXBlEg4KBnJvd19waxgCIAEoDBILCgNyb3cYAyABKAwi",
-            "JwoNT3BlcmF0aW9uVHlwZRIKCgZERUxFVEUQABIKCgZJTlNFUlQQASJxChFU",
-            "cmFuc2FjdGlvblVwZGF0ZRIgCgVldmVudBgBIAEoCzIRLmNsaWVudF9hcGku",
-            "RXZlbnQSOgoSc3Vic2NyaXB0aW9uVXBkYXRlGAIgASgLMh4uY2xpZW50X2Fw",
-            "aS5TdWJzY3JpcHRpb25VcGRhdGUiNQoLT25lT2ZmUXVlcnkSEQoJbWVzc2Fn",
-            "ZUlkGAEgASgMEhMKC3F1ZXJ5U3RyaW5nGAIgASgJImAKE09uZU9mZlF1ZXJ5",
-            "UmVzcG9uc2USEQoJbWVzc2FnZUlkGAEgASgMEg0KBWVycm9yGAIgASgJEicK",
-            "BnRhYmxlcxgDIAMoCzIXLmNsaWVudF9hcGkuT25lT2ZmVGFibGUiLQoLT25l",
-            "T2ZmVGFibGUSEQoJdGFibGVOYW1lGAIgASgJEgsKA3JvdxgEIAMoDGIGcHJv",
-            "dG8z"));
+            "GAEgASgMEg0KBXRva2VuGAIgASgJEg8KB2FkZHJlc3MYAyABKAwiRAoMRnVu",
+            "Y3Rpb25DYWxsEg8KB3JlZHVjZXIYASABKAkSEAoIYXJnQnl0ZXMYAiABKAwS",
+            "EQoJcmVxdWVzdElkGAMgASgNIjUKCVN1YnNjcmliZRIVCg1xdWVyeV9zdHJp",
+            "bmdzGAEgAygJEhEKCXJlcXVlc3RJZBgCIAEoDSKwAgoFRXZlbnQSEQoJdGlt",
+            "ZXN0YW1wGAEgASgEEhYKDmNhbGxlcklkZW50aXR5GAIgASgMEi4KDGZ1bmN0",
+            "aW9uQ2FsbBgDIAEoCzIYLmNsaWVudF9hcGkuRnVuY3Rpb25DYWxsEigKBnN0",
+            "YXR1cxgEIAEoDjIYLmNsaWVudF9hcGkuRXZlbnQuU3RhdHVzEg8KB21lc3Nh",
+            "Z2UYBSABKAkSGgoSZW5lcmd5X3F1YW50YV91c2VkGAYgASgDEiYKHmhvc3Rf",
+            "ZXhlY3V0aW9uX2R1cmF0aW9uX21pY3JvcxgHIAEoBBIVCg1jYWxsZXJBZGRy",
+            "ZXNzGAggASgMIjYKBlN0YXR1cxINCgljb21taXR0ZWQQABIKCgZmYWlsZWQQ",
+            "ARIRCg1vdXRfb2ZfZW5lcmd5EAIiqAEKElN1YnNjcmlwdGlvblVwZGF0ZRIt",
+            "Cgx0YWJsZVVwZGF0ZXMYASADKAsyFy5jbGllbnRfYXBpLlRhYmxlVXBkYXRl",
+            "EhEKCXJlcXVlc3RJZBgCIAEoDRIsCiR0b3RhbF9ob3N0X2V4ZWN1dGlvbl9k",
+            "dXJhdGlvbl9taWNyb3MYAyABKAQSFQoIdHJhY2VfaWQYBCABKAlIAIgBAUIL",
+            "CglfdHJhY2VfaWQibAoLVGFibGVVcGRhdGUSDwoHdGFibGVJZBgBIAEoDRIR",
+            "Cgl0YWJsZU5hbWUYAiABKAkSOQoSdGFibGVSb3dPcGVyYXRpb25zGAMgAygL",
+            "Mh0uY2xpZW50X2FwaS5UYWJsZVJvd09wZXJhdGlvbiKCAQoRVGFibGVSb3dP",
+            "cGVyYXRpb24SNwoCb3AYASABKA4yKy5jbGllbnRfYXBpLlRhYmxlUm93T3Bl",
+            "cmF0aW9uLk9wZXJhdGlvblR5cGUSCwoDcm93GAMgASgMIicKDU9wZXJhdGlv",
+            "blR5cGUSCgoGREVMRVRFEAASCgoGSU5TRVJUEAEilQEKEVRyYW5zYWN0aW9u",
+            "VXBkYXRlEiAKBWV2ZW50GAEgASgLMhEuY2xpZW50X2FwaS5FdmVudBI6ChJz",
+            "dWJzY3JpcHRpb25VcGRhdGUYAiABKAsyHi5jbGllbnRfYXBpLlN1YnNjcmlw",
+            "dGlvblVwZGF0ZRIVCgh0cmFjZV9pZBgDIAEoCUgAiAEBQgsKCV90cmFjZV9p",
+            "ZCI1CgtPbmVPZmZRdWVyeRIRCgltZXNzYWdlSWQYASABKAwSEwoLcXVlcnlT",
+            "dHJpbmcYAiABKAkijgEKE09uZU9mZlF1ZXJ5UmVzcG9uc2USEQoJbWVzc2Fn",
+            "ZUlkGAEgASgMEg0KBWVycm9yGAIgASgJEicKBnRhYmxlcxgDIAMoCzIXLmNs",
+            "aWVudF9hcGkuT25lT2ZmVGFibGUSLAokdG90YWxfaG9zdF9leGVjdXRpb25f",
+            "ZHVyYXRpb25fbWljcm9zGAQgASgEIi0KC09uZU9mZlRhYmxlEhEKCXRhYmxl",
+            "TmFtZRgCIAEoCRILCgNyb3cYBCADKAxiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::ClientApi.Message), global::ClientApi.Message.Parser, new[]{ "FunctionCall", "SubscriptionUpdate", "Event", "TransactionUpdate", "IdentityToken", "Subscribe", "OneOffQuery", "OneOffQueryResponse" }, new[]{ "Type" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::ClientApi.IdentityToken), global::ClientApi.IdentityToken.Parser, new[]{ "Identity", "Token", "Address" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::ClientApi.FunctionCall), global::ClientApi.FunctionCall.Parser, new[]{ "Reducer", "ArgBytes" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::ClientApi.Subscribe), global::ClientApi.Subscribe.Parser, new[]{ "QueryStrings" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::ClientApi.FunctionCall), global::ClientApi.FunctionCall.Parser, new[]{ "Reducer", "ArgBytes", "RequestId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::ClientApi.Subscribe), global::ClientApi.Subscribe.Parser, new[]{ "QueryStrings", "RequestId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::ClientApi.Event), global::ClientApi.Event.Parser, new[]{ "Timestamp", "CallerIdentity", "FunctionCall", "Status", "Message", "EnergyQuantaUsed", "HostExecutionDurationMicros", "CallerAddress" }, null, new[]{ typeof(global::ClientApi.Event.Types.Status) }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::ClientApi.SubscriptionUpdate), global::ClientApi.SubscriptionUpdate.Parser, new[]{ "TableUpdates" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::ClientApi.SubscriptionUpdate), global::ClientApi.SubscriptionUpdate.Parser, new[]{ "TableUpdates", "RequestId", "TotalHostExecutionDurationMicros", "TraceId" }, new[]{ "TraceId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::ClientApi.TableUpdate), global::ClientApi.TableUpdate.Parser, new[]{ "TableId", "TableName", "TableRowOperations" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::ClientApi.TableRowOperation), global::ClientApi.TableRowOperation.Parser, new[]{ "Op", "RowPk", "Row" }, null, new[]{ typeof(global::ClientApi.TableRowOperation.Types.OperationType) }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::ClientApi.TransactionUpdate), global::ClientApi.TransactionUpdate.Parser, new[]{ "Event", "SubscriptionUpdate" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::ClientApi.TableRowOperation), global::ClientApi.TableRowOperation.Parser, new[]{ "Op", "Row" }, null, new[]{ typeof(global::ClientApi.TableRowOperation.Types.OperationType) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::ClientApi.TransactionUpdate), global::ClientApi.TransactionUpdate.Parser, new[]{ "Event", "SubscriptionUpdate", "TraceId" }, new[]{ "TraceId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::ClientApi.OneOffQuery), global::ClientApi.OneOffQuery.Parser, new[]{ "MessageId", "QueryString" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::ClientApi.OneOffQueryResponse), global::ClientApi.OneOffQueryResponse.Parser, new[]{ "MessageId", "Error", "Tables" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::ClientApi.OneOffQueryResponse), global::ClientApi.OneOffQueryResponse.Parser, new[]{ "MessageId", "Error", "Tables", "TotalHostExecutionDurationMicros" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::ClientApi.OneOffTable), global::ClientApi.OneOffTable.Parser, new[]{ "TableName", "Row" }, null, null, null, null)
           }));
     }
@@ -995,6 +999,7 @@ namespace ClientApi {
   ////
   //// - `argBytes` is the arguments to the reducer, encoded as BSATN.
   ////
+  //// - `requestId` is a identifier for client request.
   //// SpacetimeDB models reducers as taking a single `AlgebraicValue` as an argument, which
   //// generally will be a `ProductValue` containing all of the args (except the
   //// `ReducerContext`, which is injected by the host, not provided in this API).
@@ -1035,6 +1040,7 @@ namespace ClientApi {
     public FunctionCall(FunctionCall other) : this() {
       reducer_ = other.reducer_;
       argBytes_ = other.argBytes_;
+      requestId_ = other.requestId_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1071,6 +1077,18 @@ namespace ClientApi {
       }
     }
 
+    /// <summary>Field number for the "requestId" field.</summary>
+    public const int RequestIdFieldNumber = 3;
+    private uint requestId_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint RequestId {
+      get { return requestId_; }
+      set {
+        requestId_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -1088,6 +1106,7 @@ namespace ClientApi {
       }
       if (Reducer != other.Reducer) return false;
       if (ArgBytes != other.ArgBytes) return false;
+      if (RequestId != other.RequestId) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1097,6 +1116,7 @@ namespace ClientApi {
       int hash = 1;
       if (Reducer.Length != 0) hash ^= Reducer.GetHashCode();
       if (ArgBytes.Length != 0) hash ^= ArgBytes.GetHashCode();
+      if (RequestId != 0) hash ^= RequestId.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1123,6 +1143,10 @@ namespace ClientApi {
         output.WriteRawTag(18);
         output.WriteBytes(ArgBytes);
       }
+      if (RequestId != 0) {
+        output.WriteRawTag(24);
+        output.WriteUInt32(RequestId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1141,6 +1165,10 @@ namespace ClientApi {
         output.WriteRawTag(18);
         output.WriteBytes(ArgBytes);
       }
+      if (RequestId != 0) {
+        output.WriteRawTag(24);
+        output.WriteUInt32(RequestId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1156,6 +1184,9 @@ namespace ClientApi {
       }
       if (ArgBytes.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeBytesSize(ArgBytes);
+      }
+      if (RequestId != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(RequestId);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1174,6 +1205,9 @@ namespace ClientApi {
       }
       if (other.ArgBytes.Length != 0) {
         ArgBytes = other.ArgBytes;
+      }
+      if (other.RequestId != 0) {
+        RequestId = other.RequestId;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1198,6 +1232,10 @@ namespace ClientApi {
             ArgBytes = input.ReadBytes();
             break;
           }
+          case 24: {
+            RequestId = input.ReadUInt32();
+            break;
+          }
         }
       }
     #endif
@@ -1219,6 +1257,10 @@ namespace ClientApi {
           }
           case 18: {
             ArgBytes = input.ReadBytes();
+            break;
+          }
+          case 24: {
+            RequestId = input.ReadUInt32();
             break;
           }
         }
@@ -1281,6 +1323,7 @@ namespace ClientApi {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public Subscribe(Subscribe other) : this() {
       queryStrings_ = other.queryStrings_.Clone();
+      requestId_ = other.requestId_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1301,6 +1344,18 @@ namespace ClientApi {
       get { return queryStrings_; }
     }
 
+    /// <summary>Field number for the "requestId" field.</summary>
+    public const int RequestIdFieldNumber = 2;
+    private uint requestId_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint RequestId {
+      get { return requestId_; }
+      set {
+        requestId_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -1317,6 +1372,7 @@ namespace ClientApi {
         return true;
       }
       if(!queryStrings_.Equals(other.queryStrings_)) return false;
+      if (RequestId != other.RequestId) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1325,6 +1381,7 @@ namespace ClientApi {
     public override int GetHashCode() {
       int hash = 1;
       hash ^= queryStrings_.GetHashCode();
+      if (RequestId != 0) hash ^= RequestId.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1344,6 +1401,10 @@ namespace ClientApi {
       output.WriteRawMessage(this);
     #else
       queryStrings_.WriteTo(output, _repeated_queryStrings_codec);
+      if (RequestId != 0) {
+        output.WriteRawTag(16);
+        output.WriteUInt32(RequestId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1355,6 +1416,10 @@ namespace ClientApi {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
       queryStrings_.WriteTo(ref output, _repeated_queryStrings_codec);
+      if (RequestId != 0) {
+        output.WriteRawTag(16);
+        output.WriteUInt32(RequestId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1366,6 +1431,9 @@ namespace ClientApi {
     public int CalculateSize() {
       int size = 0;
       size += queryStrings_.CalculateSize(_repeated_queryStrings_codec);
+      if (RequestId != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(RequestId);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -1379,6 +1447,9 @@ namespace ClientApi {
         return;
       }
       queryStrings_.Add(other.queryStrings_);
+      if (other.RequestId != 0) {
+        RequestId = other.RequestId;
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -1398,6 +1469,10 @@ namespace ClientApi {
             queryStrings_.AddEntriesFrom(input, _repeated_queryStrings_codec);
             break;
           }
+          case 16: {
+            RequestId = input.ReadUInt32();
+            break;
+          }
         }
       }
     #endif
@@ -1415,6 +1490,10 @@ namespace ClientApi {
             break;
           case 10: {
             queryStrings_.AddEntriesFrom(ref input, _repeated_queryStrings_codec);
+            break;
+          }
+          case 16: {
+            RequestId = input.ReadUInt32();
             break;
           }
         }
@@ -1948,6 +2027,12 @@ namespace ClientApi {
   ////
   //// A single `SubscriptionUpdate` may contain `TableUpdate` messages for multiple
   //// tables.
+  //// - `requestId` is identifier sent by the client in requests, Host should ensure to
+  ////               to include the same requestId in the response.
+  ////
+  //// - `total_host_execution_duration_micros` its the overall time between Host recevived a request
+  ////                                          and sent a `TransactionUpdate` or `SubscriptionUpdate`.
+  ////                                          '0' is default value.
   /// </summary>
   public sealed partial class SubscriptionUpdate : pb::IMessage<SubscriptionUpdate>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -1984,6 +2069,9 @@ namespace ClientApi {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public SubscriptionUpdate(SubscriptionUpdate other) : this() {
       tableUpdates_ = other.tableUpdates_.Clone();
+      requestId_ = other.requestId_;
+      totalHostExecutionDurationMicros_ = other.totalHostExecutionDurationMicros_;
+      traceId_ = other.traceId_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -2004,6 +2092,56 @@ namespace ClientApi {
       get { return tableUpdates_; }
     }
 
+    /// <summary>Field number for the "requestId" field.</summary>
+    public const int RequestIdFieldNumber = 2;
+    private uint requestId_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint RequestId {
+      get { return requestId_; }
+      set {
+        requestId_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "total_host_execution_duration_micros" field.</summary>
+    public const int TotalHostExecutionDurationMicrosFieldNumber = 3;
+    private ulong totalHostExecutionDurationMicros_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ulong TotalHostExecutionDurationMicros {
+      get { return totalHostExecutionDurationMicros_; }
+      set {
+        totalHostExecutionDurationMicros_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "trace_id" field.</summary>
+    public const int TraceIdFieldNumber = 4;
+    private readonly static string TraceIdDefaultValue = "";
+
+    private string traceId_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string TraceId {
+      get { return traceId_ ?? TraceIdDefaultValue; }
+      set {
+        traceId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "trace_id" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasTraceId {
+      get { return traceId_ != null; }
+    }
+    /// <summary>Clears the value of the "trace_id" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearTraceId() {
+      traceId_ = null;
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -2020,6 +2158,9 @@ namespace ClientApi {
         return true;
       }
       if(!tableUpdates_.Equals(other.tableUpdates_)) return false;
+      if (RequestId != other.RequestId) return false;
+      if (TotalHostExecutionDurationMicros != other.TotalHostExecutionDurationMicros) return false;
+      if (TraceId != other.TraceId) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -2028,6 +2169,9 @@ namespace ClientApi {
     public override int GetHashCode() {
       int hash = 1;
       hash ^= tableUpdates_.GetHashCode();
+      if (RequestId != 0) hash ^= RequestId.GetHashCode();
+      if (TotalHostExecutionDurationMicros != 0UL) hash ^= TotalHostExecutionDurationMicros.GetHashCode();
+      if (HasTraceId) hash ^= TraceId.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2047,6 +2191,18 @@ namespace ClientApi {
       output.WriteRawMessage(this);
     #else
       tableUpdates_.WriteTo(output, _repeated_tableUpdates_codec);
+      if (RequestId != 0) {
+        output.WriteRawTag(16);
+        output.WriteUInt32(RequestId);
+      }
+      if (TotalHostExecutionDurationMicros != 0UL) {
+        output.WriteRawTag(24);
+        output.WriteUInt64(TotalHostExecutionDurationMicros);
+      }
+      if (HasTraceId) {
+        output.WriteRawTag(34);
+        output.WriteString(TraceId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -2058,6 +2214,18 @@ namespace ClientApi {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
       tableUpdates_.WriteTo(ref output, _repeated_tableUpdates_codec);
+      if (RequestId != 0) {
+        output.WriteRawTag(16);
+        output.WriteUInt32(RequestId);
+      }
+      if (TotalHostExecutionDurationMicros != 0UL) {
+        output.WriteRawTag(24);
+        output.WriteUInt64(TotalHostExecutionDurationMicros);
+      }
+      if (HasTraceId) {
+        output.WriteRawTag(34);
+        output.WriteString(TraceId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -2069,6 +2237,15 @@ namespace ClientApi {
     public int CalculateSize() {
       int size = 0;
       size += tableUpdates_.CalculateSize(_repeated_tableUpdates_codec);
+      if (RequestId != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(RequestId);
+      }
+      if (TotalHostExecutionDurationMicros != 0UL) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt64Size(TotalHostExecutionDurationMicros);
+      }
+      if (HasTraceId) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(TraceId);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -2082,6 +2259,15 @@ namespace ClientApi {
         return;
       }
       tableUpdates_.Add(other.tableUpdates_);
+      if (other.RequestId != 0) {
+        RequestId = other.RequestId;
+      }
+      if (other.TotalHostExecutionDurationMicros != 0UL) {
+        TotalHostExecutionDurationMicros = other.TotalHostExecutionDurationMicros;
+      }
+      if (other.HasTraceId) {
+        TraceId = other.TraceId;
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -2101,6 +2287,18 @@ namespace ClientApi {
             tableUpdates_.AddEntriesFrom(input, _repeated_tableUpdates_codec);
             break;
           }
+          case 16: {
+            RequestId = input.ReadUInt32();
+            break;
+          }
+          case 24: {
+            TotalHostExecutionDurationMicros = input.ReadUInt64();
+            break;
+          }
+          case 34: {
+            TraceId = input.ReadString();
+            break;
+          }
         }
       }
     #endif
@@ -2118,6 +2316,18 @@ namespace ClientApi {
             break;
           case 10: {
             tableUpdates_.AddEntriesFrom(ref input, _repeated_tableUpdates_codec);
+            break;
+          }
+          case 16: {
+            RequestId = input.ReadUInt32();
+            break;
+          }
+          case 24: {
+            TotalHostExecutionDurationMicros = input.ReadUInt64();
+            break;
+          }
+          case 34: {
+            TraceId = input.ReadString();
             break;
           }
         }
@@ -2401,10 +2611,6 @@ namespace ClientApi {
   //// - `op` of `INSERT` means that the row in question has been either newly inserted or
   ////                    updated, and is resident in the table.
   ////
-  //// - `row_pk` is a hash of the row computed by the database. As of 2023-06-13, even for
-  ////            tables with a `#[primarykey]` annotation on one column, the `row_pk` is not
-  ////            that primary key.
-  ////
   //// - `row` is the row itself, encoded as BSATN.
   /// </summary>
   public sealed partial class TableRowOperation : pb::IMessage<TableRowOperation>
@@ -2442,7 +2648,6 @@ namespace ClientApi {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public TableRowOperation(TableRowOperation other) : this() {
       op_ = other.op_;
-      rowPk_ = other.rowPk_;
       row_ = other.row_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -2462,18 +2667,6 @@ namespace ClientApi {
       get { return op_; }
       set {
         op_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "row_pk" field.</summary>
-    public const int RowPkFieldNumber = 2;
-    private pb::ByteString rowPk_ = pb::ByteString.Empty;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pb::ByteString RowPk {
-      get { return rowPk_; }
-      set {
-        rowPk_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -2505,7 +2698,6 @@ namespace ClientApi {
         return true;
       }
       if (Op != other.Op) return false;
-      if (RowPk != other.RowPk) return false;
       if (Row != other.Row) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -2515,7 +2707,6 @@ namespace ClientApi {
     public override int GetHashCode() {
       int hash = 1;
       if (Op != global::ClientApi.TableRowOperation.Types.OperationType.Delete) hash ^= Op.GetHashCode();
-      if (RowPk.Length != 0) hash ^= RowPk.GetHashCode();
       if (Row.Length != 0) hash ^= Row.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -2539,10 +2730,6 @@ namespace ClientApi {
         output.WriteRawTag(8);
         output.WriteEnum((int) Op);
       }
-      if (RowPk.Length != 0) {
-        output.WriteRawTag(18);
-        output.WriteBytes(RowPk);
-      }
       if (Row.Length != 0) {
         output.WriteRawTag(26);
         output.WriteBytes(Row);
@@ -2561,10 +2748,6 @@ namespace ClientApi {
         output.WriteRawTag(8);
         output.WriteEnum((int) Op);
       }
-      if (RowPk.Length != 0) {
-        output.WriteRawTag(18);
-        output.WriteBytes(RowPk);
-      }
       if (Row.Length != 0) {
         output.WriteRawTag(26);
         output.WriteBytes(Row);
@@ -2581,9 +2764,6 @@ namespace ClientApi {
       int size = 0;
       if (Op != global::ClientApi.TableRowOperation.Types.OperationType.Delete) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Op);
-      }
-      if (RowPk.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeBytesSize(RowPk);
       }
       if (Row.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeBytesSize(Row);
@@ -2602,9 +2782,6 @@ namespace ClientApi {
       }
       if (other.Op != global::ClientApi.TableRowOperation.Types.OperationType.Delete) {
         Op = other.Op;
-      }
-      if (other.RowPk.Length != 0) {
-        RowPk = other.RowPk;
       }
       if (other.Row.Length != 0) {
         Row = other.Row;
@@ -2628,10 +2805,6 @@ namespace ClientApi {
             Op = (global::ClientApi.TableRowOperation.Types.OperationType) input.ReadEnum();
             break;
           }
-          case 18: {
-            RowPk = input.ReadBytes();
-            break;
-          }
           case 26: {
             Row = input.ReadBytes();
             break;
@@ -2653,10 +2826,6 @@ namespace ClientApi {
             break;
           case 8: {
             Op = (global::ClientApi.TableRowOperation.Types.OperationType) input.ReadEnum();
-            break;
-          }
-          case 18: {
-            RowPk = input.ReadBytes();
             break;
           }
           case 26: {
@@ -2730,6 +2899,7 @@ namespace ClientApi {
     public TransactionUpdate(TransactionUpdate other) : this() {
       event_ = other.event_ != null ? other.event_.Clone() : null;
       subscriptionUpdate_ = other.subscriptionUpdate_ != null ? other.subscriptionUpdate_.Clone() : null;
+      traceId_ = other.traceId_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -2763,6 +2933,32 @@ namespace ClientApi {
       }
     }
 
+    /// <summary>Field number for the "trace_id" field.</summary>
+    public const int TraceIdFieldNumber = 3;
+    private readonly static string TraceIdDefaultValue = "";
+
+    private string traceId_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string TraceId {
+      get { return traceId_ ?? TraceIdDefaultValue; }
+      set {
+        traceId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "trace_id" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasTraceId {
+      get { return traceId_ != null; }
+    }
+    /// <summary>Clears the value of the "trace_id" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearTraceId() {
+      traceId_ = null;
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -2780,6 +2976,7 @@ namespace ClientApi {
       }
       if (!object.Equals(Event, other.Event)) return false;
       if (!object.Equals(SubscriptionUpdate, other.SubscriptionUpdate)) return false;
+      if (TraceId != other.TraceId) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -2789,6 +2986,7 @@ namespace ClientApi {
       int hash = 1;
       if (event_ != null) hash ^= Event.GetHashCode();
       if (subscriptionUpdate_ != null) hash ^= SubscriptionUpdate.GetHashCode();
+      if (HasTraceId) hash ^= TraceId.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2815,6 +3013,10 @@ namespace ClientApi {
         output.WriteRawTag(18);
         output.WriteMessage(SubscriptionUpdate);
       }
+      if (HasTraceId) {
+        output.WriteRawTag(26);
+        output.WriteString(TraceId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -2833,6 +3035,10 @@ namespace ClientApi {
         output.WriteRawTag(18);
         output.WriteMessage(SubscriptionUpdate);
       }
+      if (HasTraceId) {
+        output.WriteRawTag(26);
+        output.WriteString(TraceId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -2848,6 +3054,9 @@ namespace ClientApi {
       }
       if (subscriptionUpdate_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(SubscriptionUpdate);
+      }
+      if (HasTraceId) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(TraceId);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -2872,6 +3081,9 @@ namespace ClientApi {
           SubscriptionUpdate = new global::ClientApi.SubscriptionUpdate();
         }
         SubscriptionUpdate.MergeFrom(other.SubscriptionUpdate);
+      }
+      if (other.HasTraceId) {
+        TraceId = other.TraceId;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -2902,6 +3114,10 @@ namespace ClientApi {
             input.ReadMessage(SubscriptionUpdate);
             break;
           }
+          case 26: {
+            TraceId = input.ReadString();
+            break;
+          }
         }
       }
     #endif
@@ -2929,6 +3145,10 @@ namespace ClientApi {
               SubscriptionUpdate = new global::ClientApi.SubscriptionUpdate();
             }
             input.ReadMessage(SubscriptionUpdate);
+            break;
+          }
+          case 26: {
+            TraceId = input.ReadString();
             break;
           }
         }
@@ -3218,6 +3438,7 @@ namespace ClientApi {
       messageId_ = other.messageId_;
       error_ = other.error_;
       tables_ = other.tables_.Clone();
+      totalHostExecutionDurationMicros_ = other.totalHostExecutionDurationMicros_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -3262,6 +3483,18 @@ namespace ClientApi {
       get { return tables_; }
     }
 
+    /// <summary>Field number for the "total_host_execution_duration_micros" field.</summary>
+    public const int TotalHostExecutionDurationMicrosFieldNumber = 4;
+    private ulong totalHostExecutionDurationMicros_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ulong TotalHostExecutionDurationMicros {
+      get { return totalHostExecutionDurationMicros_; }
+      set {
+        totalHostExecutionDurationMicros_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -3280,6 +3513,7 @@ namespace ClientApi {
       if (MessageId != other.MessageId) return false;
       if (Error != other.Error) return false;
       if(!tables_.Equals(other.tables_)) return false;
+      if (TotalHostExecutionDurationMicros != other.TotalHostExecutionDurationMicros) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -3290,6 +3524,7 @@ namespace ClientApi {
       if (MessageId.Length != 0) hash ^= MessageId.GetHashCode();
       if (Error.Length != 0) hash ^= Error.GetHashCode();
       hash ^= tables_.GetHashCode();
+      if (TotalHostExecutionDurationMicros != 0UL) hash ^= TotalHostExecutionDurationMicros.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -3317,6 +3552,10 @@ namespace ClientApi {
         output.WriteString(Error);
       }
       tables_.WriteTo(output, _repeated_tables_codec);
+      if (TotalHostExecutionDurationMicros != 0UL) {
+        output.WriteRawTag(32);
+        output.WriteUInt64(TotalHostExecutionDurationMicros);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -3336,6 +3575,10 @@ namespace ClientApi {
         output.WriteString(Error);
       }
       tables_.WriteTo(ref output, _repeated_tables_codec);
+      if (TotalHostExecutionDurationMicros != 0UL) {
+        output.WriteRawTag(32);
+        output.WriteUInt64(TotalHostExecutionDurationMicros);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -3353,6 +3596,9 @@ namespace ClientApi {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Error);
       }
       size += tables_.CalculateSize(_repeated_tables_codec);
+      if (TotalHostExecutionDurationMicros != 0UL) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt64Size(TotalHostExecutionDurationMicros);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -3372,6 +3618,9 @@ namespace ClientApi {
         Error = other.Error;
       }
       tables_.Add(other.tables_);
+      if (other.TotalHostExecutionDurationMicros != 0UL) {
+        TotalHostExecutionDurationMicros = other.TotalHostExecutionDurationMicros;
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -3399,6 +3648,10 @@ namespace ClientApi {
             tables_.AddEntriesFrom(input, _repeated_tables_codec);
             break;
           }
+          case 32: {
+            TotalHostExecutionDurationMicros = input.ReadUInt64();
+            break;
+          }
         }
       }
     #endif
@@ -3424,6 +3677,10 @@ namespace ClientApi {
           }
           case 26: {
             tables_.AddEntriesFrom(ref input, _repeated_tables_codec);
+            break;
+          }
+          case 32: {
+            TotalHostExecutionDurationMicros = input.ReadUInt64();
             break;
           }
         }

@@ -384,6 +384,7 @@ namespace SpacetimeDB
 
                     case ClientApi.Message.TypeOneofCase.TransactionUpdate:
                         subscriptionUpdate = message.TransactionUpdate.SubscriptionUpdate;
+                        logger.Log($"message: {message}");
                         // First apply all of the state
                         foreach (var update in subscriptionUpdate.TableUpdates)
                         {
